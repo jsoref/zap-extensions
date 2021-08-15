@@ -67,7 +67,7 @@ public class BlowFish extends FileAlgoRandomStream {
 	int outAlgoBufferIx = outAlgoBuffer.length;
 
 	/**
-	 * iv array to algorthm
+	 * iv array to algorithm
 	 */
 	byte[] iv = { (byte) 0xFE, (byte) 0xDC, (byte) 0xBA, (byte) 0x98,
 			(byte) 0x76, (byte) 0x54, (byte) 0x32, (byte) 0x10 };
