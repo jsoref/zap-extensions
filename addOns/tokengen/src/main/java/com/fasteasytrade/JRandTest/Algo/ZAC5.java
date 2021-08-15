@@ -558,7 +558,7 @@ public class ZAC5 extends Cipher {
 	 * then input order is concat(encrypted_data_byte, fill_byte),<br>
 	 * else input order is concat(fill_byte, encrypted_data_byte)</code>
 	 * <p>
-	 * If filler byte is in correctwe o not alert if filler byte
+	 * If filler byte is in correct we do not alert if filler byte
 	 * 
 	 * @param inputBuf
 	 *            input ciphered bytes buffer, length 2n
