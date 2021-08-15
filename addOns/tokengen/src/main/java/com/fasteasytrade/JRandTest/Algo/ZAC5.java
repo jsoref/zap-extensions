@@ -565,7 +565,7 @@ public class ZAC5 extends Cipher {
 	 * @param outputBuf
 	 *            output data bytes buffer, must be length n
 	 * @param len
-	 *            intput buffer length
+	 *            input buffer length
 	 * @return returns FALSE if inputs are null or lengths are not correct.
 	 *         Else, encrypt data and returns TRUE.
 	 */
