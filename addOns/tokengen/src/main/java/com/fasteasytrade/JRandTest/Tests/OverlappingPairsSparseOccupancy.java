@@ -109,7 +109,7 @@ public class OverlappingPairsSparseOccupancy extends Base
 		double z;
 
 		/*
-		 * set different parameters in differentt classes
+		 * set different parameters in different classes
 		 */
 		setParameters();
 

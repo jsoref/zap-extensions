@@ -35,7 +35,7 @@
 package com.fasteasytrade.JRandTest.IO;
 
 /**
- * This interface will be used by several output classes, so diffferent output
+ * This interface will be used by several output classes, so different output
  * destinations can be attached to Jrard test classes.
  * 
  * @author Zur Aougav

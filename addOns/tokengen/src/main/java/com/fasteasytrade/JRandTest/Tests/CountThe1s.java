@@ -93,7 +93,7 @@ public class CountThe1s extends Base {
 
 	/**
 	 * to support CountThe1s as stream (current class) and also
-	 * CountThe1sSpecificBytes, we use differrent help() and setParameters()
+	 * CountThe1sSpecificBytes, we use different help() and setParameters()
 	 * methods.
 	 */
 	public void setParameters() {
