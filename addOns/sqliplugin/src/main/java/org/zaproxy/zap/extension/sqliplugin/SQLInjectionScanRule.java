@@ -1111,7 +1111,7 @@ public class SQLInjectionScanRule extends AbstractAppParamPlugin {
             // Here we can tamper content for WAF evasion
             // a good idea could be to use a generic class
             // and instantiate one choosen SQLiTamper or more than one
-            // who should set it? Acccording to SQLMap it's something
+            // who should set it? According to SQLMap it's something
             // that depends by the pentester...
             // Maybe create a metalanguage for this?
             // At last it's only a find and replace schema
