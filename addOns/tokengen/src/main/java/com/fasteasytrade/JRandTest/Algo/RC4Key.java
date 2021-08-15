@@ -58,7 +58,7 @@ public class RC4Key extends Cipher {
 
 	PrintStream ps = null; // used by the log
 
-	int debugLevel = 0; // write to log : 0=none, 1=stream, 2=full dscription
+	int debugLevel = 0; // write to log : 0=none, 1=stream, 2=full description
 
 	/**
 	 * @param Key
