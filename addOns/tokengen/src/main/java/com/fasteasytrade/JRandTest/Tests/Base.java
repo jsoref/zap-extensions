@@ -530,7 +530,7 @@ public class Base {
 	 * Supports only one random stream.
 	 * 
 	 * @param rs
-	 *            register radom stream interface
+	 *            register random stream interface
 	 */
 	public void registerInput(RandomStream rs) {
 		this.rs = rs;
