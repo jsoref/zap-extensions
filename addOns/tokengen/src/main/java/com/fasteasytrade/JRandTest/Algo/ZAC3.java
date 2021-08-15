@@ -372,7 +372,7 @@ public class ZAC3 extends Cipher {
 	}
 
 	/**
-	 * decrypt buffer. Two input bytes become one byte. Determin where is the
+	 * decrypt buffer. Two input bytes become one byte. Determine where is the
 	 * ciphered data and the fill byte using rhe control byte.
 	 * <p>
 	 * <code>if control_byte is even<br> 
