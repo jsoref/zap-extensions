@@ -62,7 +62,7 @@ public class DES extends FileAlgoRandomStream {
 	byte[] inAlgoBuffer = null;
 
 	/**
-	 * ecrypted result, only if no file exists
+	 * encrypted result, only if no file exists
 	 */
 	byte[] outAlgoBuffer = null;
 
