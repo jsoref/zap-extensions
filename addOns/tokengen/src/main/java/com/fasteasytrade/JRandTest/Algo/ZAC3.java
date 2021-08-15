@@ -510,7 +510,7 @@ public class ZAC3 extends Cipher {
 		controlBuf = null;
 
 		/**
-		 * clear all sha digets' buffers
+		 * clear all sha digest' buffers
 		 */
 		java.util.Arrays.fill(cryptShaDigest, 0, cryptShaDigest.length,
 				(byte) 0x00);
