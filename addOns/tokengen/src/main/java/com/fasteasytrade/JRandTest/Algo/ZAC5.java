@@ -552,7 +552,7 @@ public class ZAC5 extends Cipher {
 
 	/**
 	 * decrypt buffer. Two input bytes become one byte. Determin where is the
-	 * ciphred data and the fill byte using rhe control byte.
+	 * ciphered data and the fill byte using rhe control byte.
 	 * <p>
 	 * <code>if control_byte is even<br> 
 	 * then input order is concat(encrypted_data_byte, fill_byte),<br>
