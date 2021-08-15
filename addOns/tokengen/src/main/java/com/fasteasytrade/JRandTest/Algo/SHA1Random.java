@@ -104,7 +104,7 @@ public class SHA1Random extends FileAlgoRandomStream {
 		}
 		/**
 		 * First time, the key array is the input to SHA1, so we copy it into
-		 * outAlgoBuffer (which is used as input and outut buffer to SHA1).
+		 * outAlgoBuffer (which is used as input and output buffer to SHA1).
 		 */
 		System.arraycopy(key, 0, outAlgoBuffer, 0, outAlgoBuffer.length);
 
