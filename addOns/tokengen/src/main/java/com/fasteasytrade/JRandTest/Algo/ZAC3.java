@@ -158,11 +158,11 @@ public class ZAC3 extends Cipher {
 	 * constructor with 3 keys to setup.
 	 * 
 	 * @param cryptBuf
-	 *            kept in obejct cryptBuf and init cryptKey
+	 *            kept in object cryptBuf and init cryptKey
 	 * @param fillBuf
-	 *            kept in obejct fillBuf and init fillKey
+	 *            kept in object fillBuf and init fillKey
 	 * @param controlBuf
-	 *            kept in obejct controlBuf and init controlKey
+	 *            kept in object controlBuf and init controlKey
 	 */
 	public ZAC3(byte[] cryptBuf, byte[] fillBuf, byte[] controlBuf) {
 		setup(cryptBuf, fillBuf, controlBuf);

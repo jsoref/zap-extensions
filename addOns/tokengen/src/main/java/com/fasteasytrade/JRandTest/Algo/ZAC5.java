@@ -209,15 +209,15 @@ public class ZAC5 extends Cipher {
 	 * constructor with 5 keys to setup.
 	 * 
 	 * @param cryptBuf
-	 *            kept in obejct cryptBuf and init cryptKey
+	 *            kept in object cryptBuf and init cryptKey
 	 * @param fillBuf
-	 *            kept in obejct fillBuf and init fillKey
+	 *            kept in object fillBuf and init fillKey
 	 * @param controlBuf
-	 *            kept in obejct controlBuf and init controlKey
+	 *            kept in object controlBuf and init controlKey
 	 * @param prePermutationBuf
-	 *            kept in obejct prePerbutation and init prePermutationKey
+	 *            kept in object prePerbutation and init prePermutationKey
 	 * @param postPermutationBuf
-	 *            kept in obejct postPerbutation and init postPermutationKey
+	 *            kept in object postPerbutation and init postPermutationKey
 	 */
 	public ZAC5(byte[] cryptBuf, byte[] fillBuf, byte[] controlBuf,
 			byte[] prePermutationBuf, byte[] postPermutationBuf) {
