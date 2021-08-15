@@ -671,7 +671,7 @@ public final class SHA1 extends Cipher implements Cloneable {
 	 * get internal hash vector as vector of bytes
 	 * 
 	 * @param v
-	 *            H interbnal vector is copied into v
+	 *            H internal vector is copied into v
 	 */
 	public void getHAsBytes(byte[] v) {
 		for (int i = 0; i < H.length; i++) {
