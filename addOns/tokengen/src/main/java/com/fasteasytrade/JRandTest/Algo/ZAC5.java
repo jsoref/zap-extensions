@@ -215,9 +215,9 @@ public class ZAC5 extends Cipher {
 	 * @param controlBuf
 	 *            kept in object controlBuf and init controlKey
 	 * @param prePermutationBuf
-	 *            kept in object prePerbutation and init prePermutationKey
+	 *            kept in object prePermutation and init prePermutationKey
 	 * @param postPermutationBuf
-	 *            kept in object postPerbutation and init postPermutationKey
+	 *            kept in object postPermutation and init postPermutationKey
 	 */
 	public ZAC5(byte[] cryptBuf, byte[] fillBuf, byte[] controlBuf,
 			byte[] prePermutationBuf, byte[] postPermutationBuf) {
