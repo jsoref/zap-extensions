@@ -645,7 +645,7 @@ public class Base {
 	 * read one int from registered input random stream and divide it by (2^32 -
 	 * 1).
 	 * 
-	 * @return double number netween 0 and 1.
+	 * @return double number between 0 and 1.
 	 */
 	public double read32BitsAsDouble() {
 		return ((double) (0x00ffffffffL & readInt())) / (double) 0x0ffffffffL;
