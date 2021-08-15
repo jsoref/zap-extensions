@@ -212,7 +212,7 @@ public class Manager implements ProcessChecker.ProcessUpdate {
         URL url;
 
         // add the start point to the running list
-        // TODO change this so it sctually checks for it
+        // TODO change this so it actually checks for it
         try {
             url = new URL(firstPartOfURL + startPoint);
             // gui.addResult(new ResultsTableObject("Dir", url.getPath(), "---", "Scanning",
