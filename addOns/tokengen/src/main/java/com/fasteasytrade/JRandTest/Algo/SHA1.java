@@ -215,7 +215,7 @@ public final class SHA1 extends Cipher implements Cloneable {
 		for (i = (bufs + 3) >> 2; i < 14; i++)
 			W[i] = 0;
 		// add two words with hash length in bits
-		totb <<= 3; // bytes to bits, changing it is OK as it is to be resetted
+		totb <<= 3; // bytes to bits, changing it is OK as it is to be reset
 		// to 0 before next use
 		W[14] = (int) (totb >>> 32);
 		W[15] = (int) (totb & 0xFFFFFFFF);
