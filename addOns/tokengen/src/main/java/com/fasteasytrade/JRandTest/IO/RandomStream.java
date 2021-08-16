@@ -35,7 +35,7 @@
 package com.fasteasytrade.JRandTest.IO;
 
 /**
- * RandomStream interface represen stream of data to be checked by the different
+ * RandomStream interface represents stream of data to be checked by the different
  * tests. The interface will be implemented by real classes to read data from
  * files, external devices, web urls or algorithms.
  * 
