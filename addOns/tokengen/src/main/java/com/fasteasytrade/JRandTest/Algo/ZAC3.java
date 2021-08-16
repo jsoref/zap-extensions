@@ -381,7 +381,7 @@ public class ZAC3 extends Cipher {
 	 * <p>
 	 * If filler byte is not in a correct place, we flag <code>garbage</code>
 	 * boolean value, and hence forth, fill *any* output buffer with random data
-	 * without decryption. Note taht no alert is given.
+	 * without decryption. Note that no alert is given.
 	 * 
 	 * @param inputBuf
 	 *            input ciphered bytes buffer, length 2n
