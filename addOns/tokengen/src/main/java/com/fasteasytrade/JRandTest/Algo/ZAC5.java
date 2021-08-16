@@ -1231,7 +1231,7 @@ public class ZAC5 extends Cipher {
 			return;
 		}
 
-		System.out.println("Unkown operation " + op + " or not yet supported.");
+		System.out.println("Unknown operation " + op + " or not yet supported.");
 	}
 
 }
