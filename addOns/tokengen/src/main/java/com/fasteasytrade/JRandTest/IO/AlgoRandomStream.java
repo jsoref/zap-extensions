@@ -50,18 +50,18 @@ public interface AlgoRandomStream extends RandomStream {
 	public void setupKeys();
 
 	/**
-	 * Set public or symetric key to algorithm from file
+	 * Set public or symmetric key to algorithm from file
 	 * 
 	 * @param f
-	 *            file name with public or symetric key
+	 *            file name with public or symmetric key
 	 */
 	public void setPublicKeyFromFile(String f);
 
 	/**
-	 * Set public or symetric key to algorithm
+	 * Set public or symmetric key to algorithm
 	 * 
 	 * @param k
-	 *            byte array of public or symetric key
+	 *            byte array of public or symmetric key
 	 */
 	public void setPublicKey(byte[] k);
 

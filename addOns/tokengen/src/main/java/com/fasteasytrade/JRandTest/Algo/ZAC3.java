@@ -39,7 +39,7 @@ import java.util.Random;
 /**
  * ZAC3 encryption algorithm Copyright (c) 2005 Zur Aougav
  * <p>
- * Symetric algorithm.
+ * Symmetric algorithm.
  * <p>
  * Use 3 ARC4 keys:
  * <ul>
