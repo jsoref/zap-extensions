@@ -45,7 +45,7 @@ public interface RandomStream {
 	/**
 	 * check if RandomStream is open
 	 * 
-	 * @return true if open (still data in stream), else flase
+	 * @return true if open (still data in stream), else false
 	 */
 	public boolean isOpen();
 
@@ -53,7 +53,7 @@ public interface RandomStream {
 	 * set file name to be processed. this file is the raw data to be read, or
 	 * the input file processed by algorithm.
 	 * 
-	 * @return true if open (still data in stream), else flase
+	 * @return true if open (still data in stream), else false
 	 */
 	public void setFilename(String s);
 
