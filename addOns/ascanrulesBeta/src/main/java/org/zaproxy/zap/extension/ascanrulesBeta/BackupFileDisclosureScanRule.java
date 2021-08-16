@@ -429,7 +429,7 @@ public class BackupFileDisclosureScanRule extends AbstractAppPlugin {
 
             String randomfilename =
                     RandomStringUtils.random(
-                            filename.length(), "abcdefghijklmoopqrstuvwxyz0123456789");
+                            filename.length(), "abcdefghijklmnopqrstuvwxyz0123456789");
             String randomfilepath = temppath.substring(0, slashposition) + "/" + randomfilename;
 
             log.debug("Trying non-existent file: {}", randomfilepath);
@@ -472,7 +472,7 @@ public class BackupFileDisclosureScanRule extends AbstractAppPlugin {
                 String parentfoldername = pathbreak[pathbreak.length - 2];
                 String randomparentfoldername =
                         RandomStringUtils.random(
-                                parentfoldername.length(), "abcdefghijklmoopqrstuvwxyz0123456789");
+                                parentfoldername.length(), "abcdefghijklmnopqrstuvwxyz0123456789");
 
                 // replace the parent folder name with the random one, and build it back into a
                 // string

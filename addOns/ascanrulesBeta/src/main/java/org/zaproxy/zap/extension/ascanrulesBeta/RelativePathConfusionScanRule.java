@@ -153,7 +153,7 @@ public class RelativePathConfusionScanRule extends AbstractAppPlugin {
     // Note: important here to *NOT* include any characters that could cause the resulting file
     // suffix to be interpreted as a file with a file extension
     private static final char[] RANDOM_PARAMETER_CHARS =
-            "abcdefghijklmnopqrstuvwyxz0123456789".toCharArray();
+            "abcdefghijklmnopqrstuvwxyz0123456789".toCharArray();
 
     /**
      * the attack path to be appended to the URL. This is static to avoid repeated attacks on the

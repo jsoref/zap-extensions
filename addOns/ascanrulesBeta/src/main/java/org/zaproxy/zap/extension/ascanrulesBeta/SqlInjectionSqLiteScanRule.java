@@ -207,7 +207,7 @@ public class SqlInjectionSqLiteScanRule extends AbstractAppParamPlugin {
     private long parseDelayDifference = 0;
     private long incrementalDelayIncreasesForAlert = 0;
 
-    private char[] RANDOM_PARAMETER_CHARS = "abcdefghijklmnopqrstuvwyxz0123456789".toCharArray();
+    private char[] RANDOM_PARAMETER_CHARS = "abcdefghijklmnopqrstuvwxyz0123456789".toCharArray();
 
     /** for logging. */
     private static Logger log = LogManager.getLogger(SqlInjectionSqLiteScanRule.class);

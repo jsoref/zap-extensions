@@ -61,7 +61,7 @@ public class UsernameEnumerationScanRule extends AbstractAppPlugin {
     private static Logger log = LogManager.getLogger(UsernameEnumerationScanRule.class);
 
     /** The characters used to generate the random username. */
-    private static final char[] RANDOM_USERNAME_CHARS = "abcdefghijklmnopqrstuvwyxz".toCharArray();
+    private static final char[] RANDOM_USERNAME_CHARS = "abcdefghijklmnopqrstuvwxyz".toCharArray();
 
     private static ExtensionAuthentication extAuth =
             (ExtensionAuthentication)
