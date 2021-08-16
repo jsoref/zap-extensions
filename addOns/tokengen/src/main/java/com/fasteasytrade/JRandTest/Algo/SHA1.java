@@ -277,7 +277,7 @@ public final class SHA1 extends Cipher implements Cloneable {
 		}
 
 		int i = 0, t = ((int) totb) & 63;
-		while ((i < m.length) && ((t & 3) != 0)) { // up to dword alignement or
+		while ((i < m.length) && ((t & 3) != 0)) { // up to dword alignment or
 			// end
 			W[t >> 2] |= m[i] << (((~(int) totb) & 3) << 3); // add next byte
 			i++;
