@@ -39,7 +39,7 @@ import java.util.Random;
 /**
  * ZAC3 encryption algorithm Copyright (c) 2005 Zur Aougav
  * <p>
- * Symetric algorithm.
+ * Symmetric algorithm.
  * <p>
  * Use 3 ARC4 keys:
  * <ul>
@@ -158,11 +158,11 @@ public class ZAC3 extends Cipher {
 	 * constructor with 3 keys to setup.
 	 * 
 	 * @param cryptBuf
-	 *            kept in obejct cryptBuf and init cryptKey
+	 *            kept in object cryptBuf and init cryptKey
 	 * @param fillBuf
-	 *            kept in obejct fillBuf and init fillKey
+	 *            kept in object fillBuf and init fillKey
 	 * @param controlBuf
-	 *            kept in obejct controlBuf and init controlKey
+	 *            kept in object controlBuf and init controlKey
 	 */
 	public ZAC3(byte[] cryptBuf, byte[] fillBuf, byte[] controlBuf) {
 		setup(cryptBuf, fillBuf, controlBuf);
@@ -372,8 +372,8 @@ public class ZAC3 extends Cipher {
 	}
 
 	/**
-	 * decrypt buffer. Two input bytes become one byte. Determin where is the
-	 * ciphred data and the fill byte using rhe control byte.
+	 * decrypt buffer. Two input bytes become one byte. Determine where is the
+	 * ciphered data and the fill byte using rhe control byte.
 	 * <p>
 	 * <code>if control_byte is even<br> 
 	 * then input order is concat(encrypted_data_byte, fill_byte),<br>
@@ -381,14 +381,14 @@ public class ZAC3 extends Cipher {
 	 * <p>
 	 * If filler byte is not in a correct place, we flag <code>garbage</code>
 	 * boolean value, and hence forth, fill *any* output buffer with random data
-	 * without decryption. Note taht no alert is given.
+	 * without decryption. Note that no alert is given.
 	 * 
 	 * @param inputBuf
 	 *            input ciphered bytes buffer, length 2n
 	 * @param outputBuf
 	 *            output data bytes buffer, must be length n
 	 * @param len
-	 *            intput buffer length
+	 *            input buffer length
 	 * @return returns FALSE if inputs are null or lengths are not correct.
 	 *         Else, encrypt data and returns TRUE.
 	 */
@@ -510,7 +510,7 @@ public class ZAC3 extends Cipher {
 		controlBuf = null;
 
 		/**
-		 * clear all sha digets' buffers
+		 * clear all sha digest' buffers
 		 */
 		java.util.Arrays.fill(cryptShaDigest, 0, cryptShaDigest.length,
 				(byte) 0x00);
@@ -853,7 +853,7 @@ public class ZAC3 extends Cipher {
 			return;
 		}
 
-		System.out.println("Unkown operation " + op + " or not yet supported.");
+		System.out.println("Unknown operation " + op + " or not yet supported.");
 	}
 
 }

@@ -35,7 +35,7 @@
 package com.fasteasytrade.JRandTest.IO;
 
 /**
- * RandomStream interface represen stream of data to be checked by the different
+ * RandomStream interface represents stream of data to be checked by the different
  * tests. The interface will be implemented by real classes to read data from
  * files, external devices, web urls or algorithms.
  * 
@@ -45,7 +45,7 @@ public interface RandomStream {
 	/**
 	 * check if RandomStream is open
 	 * 
-	 * @return true if open (still data in stream), else flase
+	 * @return true if open (still data in stream), else false
 	 */
 	public boolean isOpen();
 
@@ -53,7 +53,7 @@ public interface RandomStream {
 	 * set file name to be processed. this file is the raw data to be read, or
 	 * the input file processed by algorithm.
 	 * 
-	 * @return true if open (still data in stream), else flase
+	 * @return true if open (still data in stream), else false
 	 */
 	public void setFilename(String s);
 

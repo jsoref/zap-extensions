@@ -39,7 +39,7 @@ import java.util.Random;
 /**
  * ZAC5 encryption algorithm Copyright (c) 2005 Zur Aougav
  * <p>
- * Symetric algorithm.
+ * Symmetric algorithm.
  * <p>
  * Use 5 ARC4 keys:
  * <ul>
@@ -209,15 +209,15 @@ public class ZAC5 extends Cipher {
 	 * constructor with 5 keys to setup.
 	 * 
 	 * @param cryptBuf
-	 *            kept in obejct cryptBuf and init cryptKey
+	 *            kept in object cryptBuf and init cryptKey
 	 * @param fillBuf
-	 *            kept in obejct fillBuf and init fillKey
+	 *            kept in object fillBuf and init fillKey
 	 * @param controlBuf
-	 *            kept in obejct controlBuf and init controlKey
+	 *            kept in object controlBuf and init controlKey
 	 * @param prePermutationBuf
-	 *            kept in obejct prePerbutation and init prePermutationKey
+	 *            kept in object prePermutation and init prePermutationKey
 	 * @param postPermutationBuf
-	 *            kept in obejct postPerbutation and init postPermutationKey
+	 *            kept in object postPermutation and init postPermutationKey
 	 */
 	public ZAC5(byte[] cryptBuf, byte[] fillBuf, byte[] controlBuf,
 			byte[] prePermutationBuf, byte[] postPermutationBuf) {
@@ -551,21 +551,21 @@ public class ZAC5 extends Cipher {
 	}
 
 	/**
-	 * decrypt buffer. Two input bytes become one byte. Determin where is the
-	 * ciphred data and the fill byte using rhe control byte.
+	 * decrypt buffer. Two input bytes become one byte. Determine where is the
+	 * ciphered data and the fill byte using rhe control byte.
 	 * <p>
 	 * <code>if control_byte is even<br> 
 	 * then input order is concat(encrypted_data_byte, fill_byte),<br>
 	 * else input order is concat(fill_byte, encrypted_data_byte)</code>
 	 * <p>
-	 * If filler byte is in correctwe o not alert if filler byte
+	 * If filler byte is in correct we do not alert if filler byte
 	 * 
 	 * @param inputBuf
 	 *            input ciphered bytes buffer, length 2n
 	 * @param outputBuf
 	 *            output data bytes buffer, must be length n
 	 * @param len
-	 *            intput buffer length
+	 *            input buffer length
 	 * @return returns FALSE if inputs are null or lengths are not correct.
 	 *         Else, encrypt data and returns TRUE.
 	 */
@@ -765,7 +765,7 @@ public class ZAC5 extends Cipher {
 		postPermutationBuf = null;
 
 		/**
-		 * clear all sha digets' buffers
+		 * clear all sha digest' buffers
 		 */
 		java.util.Arrays.fill(cryptShaDigest, 0, cryptShaDigest.length,
 				(byte) 0x00);
@@ -1231,7 +1231,7 @@ public class ZAC5 extends Cipher {
 			return;
 		}
 
-		System.out.println("Unkown operation " + op + " or not yet supported.");
+		System.out.println("Unknown operation " + op + " or not yet supported.");
 	}
 
 }

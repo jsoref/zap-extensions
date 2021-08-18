@@ -79,7 +79,7 @@ public class RSACrypt extends Cipher {
 	java.util.Random rnd = new java.util.Random();
 
 	/**
-	 * Almost null contructor 
+	 * Almost null constructor 
 	 */
 	public RSACrypt() {
 		msglen = -1;

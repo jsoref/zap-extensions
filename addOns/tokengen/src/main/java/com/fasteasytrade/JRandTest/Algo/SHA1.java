@@ -215,7 +215,7 @@ public final class SHA1 extends Cipher implements Cloneable {
 		for (i = (bufs + 3) >> 2; i < 14; i++)
 			W[i] = 0;
 		// add two words with hash length in bits
-		totb <<= 3; // bytes to bits, changing it is OK as it is to be resetted
+		totb <<= 3; // bytes to bits, changing it is OK as it is to be reset
 		// to 0 before next use
 		W[14] = (int) (totb >>> 32);
 		W[15] = (int) (totb & 0xFFFFFFFF);
@@ -277,7 +277,7 @@ public final class SHA1 extends Cipher implements Cloneable {
 		}
 
 		int i = 0, t = ((int) totb) & 63;
-		while ((i < m.length) && ((t & 3) != 0)) { // up to dword alignement or
+		while ((i < m.length) && ((t & 3) != 0)) { // up to dword alignment or
 			// end
 			W[t >> 2] |= m[i] << (((~(int) totb) & 3) << 3); // add next byte
 			i++;
@@ -671,7 +671,7 @@ public final class SHA1 extends Cipher implements Cloneable {
 	 * get internal hash vector as vector of bytes
 	 * 
 	 * @param v
-	 *            H interbnal vector is copied into v
+	 *            H internal vector is copied into v
 	 */
 	public void getHAsBytes(byte[] v) {
 		for (int i = 0; i < H.length; i++) {
