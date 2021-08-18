@@ -441,12 +441,12 @@ public class SwaggerConverter implements Converter {
         }
 
         List<StructuralNodeModifier> structuralNodeModifiers = new ArrayList<>();
-        int ddnCnt = 0;
+        int ddnCount = 0;
         for (String regexString : ddnRegexStrings) {
             try {
                 Pattern pattern = Pattern.compile(regexString);
                 StructuralNodeModifier structuralNodeModifier =
-                        createStructuralNode(pattern, "DDN" + ddnCnt++);
+                        createStructuralNode(pattern, "DDN" + ddnCount++);
                 structuralNodeModifiers.add(structuralNodeModifier);
             } catch (Exception e) {
                 LOG.error("error adding structural node", e);
